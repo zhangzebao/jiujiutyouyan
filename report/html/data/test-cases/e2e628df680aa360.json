@@ -1,0 +1,764 @@
+{
+  "uid" : "e2e628df680aa360",
+  "name" : "test19_check_core_subjects_valuation_ps[002268]",
+  "fullName" : "scripts.test04_valuation_tools.TestValuationTools#test19_check_core_subjects_valuation_ps",
+  "historyId" : "720bdaa10c9c5303ea4e62b75ed18ac1",
+  "time" : {
+    "start" : 1579148207053,
+    "stop" : 1579148216679,
+    "duration" : 9626
+  },
+  "description" : "验证核心科目1年增速PS-2020估值",
+  "descriptionHtml" : "<p>验证核心科目1年增速PS-2020估值</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1579141112841,
+      "stop" : 1579141114827,
+      "duration" : 1986
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "初始化driver操作",
+      "time" : {
+        "start" : 1579141112841,
+        "stop" : 1579141112841,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "查找元素操作",
+      "time" : {
+        "start" : 1579141112851,
+        "stop" : 1579141114215,
+        "duration" : 1364
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "查找元素操作",
+        "time" : {
+          "start" : 1579141112852,
+          "stop" : 1579141113581,
+          "duration" : 729
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "60db1a986dd12ada",
+          "name" : "('xpath', \"//*[contains(@text,'工具')]\")",
+          "source" : "60db1a986dd12ada.attach",
+          "type" : "text/plain",
+          "size" : 18
+        } ],
+        "parameters" : [ {
+          "name" : "loc",
+          "value" : "('xpath', \"//*[contains(@text,'工具')]\")"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        }, {
+          "name" : "poll",
+          "value" : "0.5"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "f0ffce7147006c4b",
+        "name" : "('xpath', \"//*[contains(@text,'工具')]\")",
+        "source" : "f0ffce7147006c4b.attach",
+        "type" : "text/plain",
+        "size" : 15
+      } ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('xpath', \"//*[contains(@text,'工具')]\")"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "查找元素操作",
+      "time" : {
+        "start" : 1579141114215,
+        "stop" : 1579141114827,
+        "duration" : 612
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "查找元素操作",
+        "time" : {
+          "start" : 1579141114216,
+          "stop" : 1579141114247,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "71e8b0a1117a0650",
+          "name" : "('id', 'com.xraybot.jiujiutouyan:id/tv_btn_woyao_guzhi')",
+          "source" : "71e8b0a1117a0650.attach",
+          "type" : "text/plain",
+          "size" : 18
+        } ],
+        "parameters" : [ {
+          "name" : "loc",
+          "value" : "('id', 'com.xraybot.jiujiutouyan:id/tv_btn_woyao_guzhi')"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        }, {
+          "name" : "poll",
+          "value" : "0.5"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "dda642cc3de5be6",
+        "name" : "('id', 'com.xraybot.jiujiutouyan:id/tv_btn_woyao_guzhi')",
+        "source" : "dda642cc3de5be6.attach",
+        "type" : "text/plain",
+        "size" : 15
+      } ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('id', 'com.xraybot.jiujiutouyan:id/tv_btn_woyao_guzhi')"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "验证核心科目1年增速PS-2020估值",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "查找元素操作",
+      "time" : {
+        "start" : 1579148207053,
+        "stop" : 1579148207064,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8e6b6df29331a5a7",
+        "name" : "('id', 'com.xraybot.jiujiutouyan:id/et_searchtext_search')",
+        "source" : "8e6b6df29331a5a7.attach",
+        "type" : "text/plain",
+        "size" : 18
+      } ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('id', 'com.xraybot.jiujiutouyan:id/et_searchtext_search')"
+      }, {
+        "name" : "timeout",
+        "value" : "10"
+      }, {
+        "name" : "poll",
+        "value" : "0.5"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "查找元素操作",
+      "time" : {
+        "start" : 1579148209202,
+        "stop" : 1579148209228,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "查找元素操作",
+        "time" : {
+          "start" : 1579148209202,
+          "stop" : 1579148209217,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a853d8c8279645dd",
+          "name" : "('id', 'com.xraybot.jiujiutouyan:id/buttonback')",
+          "source" : "a853d8c8279645dd.attach",
+          "type" : "text/plain",
+          "size" : 18
+        } ],
+        "parameters" : [ {
+          "name" : "loc",
+          "value" : "('id', 'com.xraybot.jiujiutouyan:id/buttonback')"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        }, {
+          "name" : "poll",
+          "value" : "0.5"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "b307fb7f97f07857",
+        "name" : "('id', 'com.xraybot.jiujiutouyan:id/buttonback')",
+        "source" : "b307fb7f97f07857.attach",
+        "type" : "text/plain",
+        "size" : 15
+      } ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('id', 'com.xraybot.jiujiutouyan:id/buttonback')"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "查找元素操作",
+      "time" : {
+        "start" : 1579148210229,
+        "stop" : 1579148211939,
+        "duration" : 1710
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "查找元素操作",
+        "time" : {
+          "start" : 1579148210229,
+          "stop" : 1579148211149,
+          "duration" : 920
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9defe1b31731bc2a",
+          "name" : "('xpath', \"//*[contains(@text,'请选择')]\")",
+          "source" : "9defe1b31731bc2a.attach",
+          "type" : "text/plain",
+          "size" : 18
+        } ],
+        "parameters" : [ {
+          "name" : "loc",
+          "value" : "('xpath', \"//*[contains(@text,'请选择')]\")"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        }, {
+          "name" : "poll",
+          "value" : "0.5"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "e010b3e46601e1e8",
+        "name" : "('xpath', \"//*[contains(@text,'请选择')]\")",
+        "source" : "e010b3e46601e1e8.attach",
+        "type" : "text/plain",
+        "size" : 15
+      } ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('xpath', \"//*[contains(@text,'请选择')]\")"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "查找元素操作",
+      "time" : {
+        "start" : 1579148212939,
+        "stop" : 1579148212990,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "查找元素操作",
+        "time" : {
+          "start" : 1579148212939,
+          "stop" : 1579148212975,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d601a96f66032482",
+          "name" : "('xpath', \"//*[contains(@text,'最近1年增速')]\")",
+          "source" : "d601a96f66032482.attach",
+          "type" : "text/plain",
+          "size" : 18
+        } ],
+        "parameters" : [ {
+          "name" : "loc",
+          "value" : "('xpath', \"//*[contains(@text,'最近1年增速')]\")"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        }, {
+          "name" : "poll",
+          "value" : "0.5"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "323e725de2b1a25c",
+        "name" : "('xpath', \"//*[contains(@text,'最近1年增速')]\")",
+        "source" : "323e725de2b1a25c.attach",
+        "type" : "text/plain",
+        "size" : 15
+      } ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('xpath', \"//*[contains(@text,'最近1年增速')]\")"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "查找元素操作",
+      "time" : {
+        "start" : 1579148213990,
+        "stop" : 1579148214809,
+        "duration" : 819
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "查找元素操作",
+        "time" : {
+          "start" : 1579148213991,
+          "stop" : 1579148214014,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ca77ab9d777fc195",
+          "name" : "('xpath', \"//*[contains(@text,'PB估值')]\")",
+          "source" : "ca77ab9d777fc195.attach",
+          "type" : "text/plain",
+          "size" : 18
+        } ],
+        "parameters" : [ {
+          "name" : "loc",
+          "value" : "('xpath', \"//*[contains(@text,'PB估值')]\")"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        }, {
+          "name" : "poll",
+          "value" : "0.5"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "2b1a9dbfae85248c",
+        "name" : "('xpath', \"//*[contains(@text,'PB估值')]\")",
+        "source" : "2b1a9dbfae85248c.attach",
+        "type" : "text/plain",
+        "size" : 15
+      } ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('xpath', \"//*[contains(@text,'PB估值')]\")"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "查找元素操作",
+      "time" : {
+        "start" : 1579148215809,
+        "stop" : 1579148215832,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "查找元素操作",
+        "time" : {
+          "start" : 1579148215809,
+          "stop" : 1579148215822,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "883ba71762b7cdca",
+          "name" : "('xpath', \"//*[contains(@text,'PS估值')]\")",
+          "source" : "883ba71762b7cdca.attach",
+          "type" : "text/plain",
+          "size" : 18
+        } ],
+        "parameters" : [ {
+          "name" : "loc",
+          "value" : "('xpath', \"//*[contains(@text,'PS估值')]\")"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        }, {
+          "name" : "poll",
+          "value" : "0.5"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "b7dda8e5577baea1",
+        "name" : "('xpath', \"//*[contains(@text,'PS估值')]\")",
+        "source" : "b7dda8e5577baea1.attach",
+        "type" : "text/plain",
+        "size" : 15
+      } ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('xpath', \"//*[contains(@text,'PS估值')]\")"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "查找元素操作",
+      "time" : {
+        "start" : 1579148215832,
+        "stop" : 1579148216510,
+        "duration" : 678
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "43fe427a1a26d471",
+        "name" : "('id', 'com.xraybot.jiujiutouyan:id/tv_pb_result')",
+        "source" : "43fe427a1a26d471.attach",
+        "type" : "text/plain",
+        "size" : 18
+      } ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('id', 'com.xraybot.jiujiutouyan:id/tv_pb_result')"
+      }, {
+        "name" : "timeout",
+        "value" : "10"
+      }, {
+        "name" : "poll",
+        "value" : "0.5"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "查找元素操作",
+      "time" : {
+        "start" : 1579148216519,
+        "stop" : 1579148216549,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cbde69942bb858a2",
+        "name" : "('id', 'com.xraybot.jiujiutouyan:id/tv_pb_result')",
+        "source" : "cbde69942bb858a2.attach",
+        "type" : "text/plain",
+        "size" : 18
+      } ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('id', 'com.xraybot.jiujiutouyan:id/tv_pb_result')"
+      }, {
+        "name" : "timeout",
+        "value" : "10"
+      }, {
+        "name" : "poll",
+        "value" : "0.5"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "查找元素操作",
+      "time" : {
+        "start" : 1579148216560,
+        "stop" : 1579148216571,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b6987a77c4449773",
+        "name" : "('id', 'com.xraybot.jiujiutouyan:id/tv_pb_result')",
+        "source" : "b6987a77c4449773.attach",
+        "type" : "text/plain",
+        "size" : 18
+      } ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('id', 'com.xraybot.jiujiutouyan:id/tv_pb_result')"
+      }, {
+        "name" : "timeout",
+        "value" : "10"
+      }, {
+        "name" : "poll",
+        "value" : "0.5"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "查找元素操作",
+      "time" : {
+        "start" : 1579148216598,
+        "stop" : 1579148216615,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "df9ab351f35f8ff9",
+        "name" : "('id', 'com.xraybot.jiujiutouyan:id/tv_pb_result')",
+        "source" : "df9ab351f35f8ff9.attach",
+        "type" : "text/plain",
+        "size" : 18
+      } ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('id', 'com.xraybot.jiujiutouyan:id/tv_pb_result')"
+      }, {
+        "name" : "timeout",
+        "value" : "10"
+      }, {
+        "name" : "poll",
+        "value" : "0.5"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "查找元素操作",
+      "time" : {
+        "start" : 1579148216622,
+        "stop" : 1579148216633,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ce76bb646a4789e3",
+        "name" : "('id', 'com.xraybot.jiujiutouyan:id/tv_pb_result')",
+        "source" : "ce76bb646a4789e3.attach",
+        "type" : "text/plain",
+        "size" : 18
+      } ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('id', 'com.xraybot.jiujiutouyan:id/tv_pb_result')"
+      }, {
+        "name" : "timeout",
+        "value" : "10"
+      }, {
+        "name" : "poll",
+        "value" : "0.5"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "查找元素操作",
+      "time" : {
+        "start" : 1579148216660,
+        "stop" : 1579148216670,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "549dc3ff399d7517",
+        "name" : "('id', 'com.xraybot.jiujiutouyan:id/tv_pb_result')",
+        "source" : "549dc3ff399d7517.attach",
+        "type" : "text/plain",
+        "size" : 18
+      } ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('id', 'com.xraybot.jiujiutouyan:id/tv_pb_result')"
+      }, {
+        "name" : "timeout",
+        "value" : "10"
+      }, {
+        "name" : "poll",
+        "value" : "0.5"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "查找元素操作",
+      "time" : {
+        "start" : 1579148216680,
+        "stop" : 1579148216709,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "查找元素操作",
+        "time" : {
+          "start" : 1579148216682,
+          "stop" : 1579148216692,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8d2863b3081be78",
+          "name" : "('class name', 'android.widget.TextView')",
+          "source" : "8d2863b3081be78.attach",
+          "type" : "text/plain",
+          "size" : 18
+        } ],
+        "parameters" : [ {
+          "name" : "loc",
+          "value" : "('class name', 'android.widget.TextView')"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        }, {
+          "name" : "poll",
+          "value" : "0.5"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "8e194539b13df7b8",
+        "name" : "('class name', 'android.widget.TextView')",
+        "source" : "8e194539b13df7b8.attach",
+        "type" : "text/plain",
+        "size" : 15
+      } ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('class name', 'android.widget.TextView')"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b3e2668f02c40f5e",
+      "name" : "log",
+      "source" : "b3e2668f02c40f5e.txt",
+      "type" : "text/plain",
+      "size" : 3062
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 19,
+    "hasContent" : true,
+    "attachmentsCount" : 20,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1579157607483,
+      "stop" : 1579157608341,
+      "duration" : 858
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test04_valuation_tools"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestValuationTools"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HIJ2U4P"
+  }, {
+    "name" : "thread",
+    "value" : "10804-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test04_valuation_tools"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "'002268'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e2e628df680aa360.json",
+  "parameterValues" : [ "'002268'" ]
+}
