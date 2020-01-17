@@ -110,11 +110,11 @@ three_year_growth_rate = By.XPATH, "//*[contains(@text,'最近3年增速')]"
 # 我的估值结果
 valuation_result = By.ID, "com.xraybot.jiujiutouyan:id/tv_pb_result"
 # 2019
-year2020 = By.XPATH, "//*[contains(@text,'2020')]"
+year2020 = By.XPATH, "//*[contains(@text,'2019')]"
 # 2020
-year2021 = By.XPATH, "//*[contains(@text,'2021')]"
+year2021 = By.XPATH, "//*[contains(@text,'2020')]"
 # 2021
-year2022 = By.XPATH, "//*[contains(@text,'2022')]"
+year2022 = By.XPATH, "//*[contains(@text,'2021')]"
 # PB估值
 valuation_pb = By.XPATH, "//*[contains(@text,'PB估值')]"
 # PE估值
