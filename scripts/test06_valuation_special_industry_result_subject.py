@@ -27,7 +27,7 @@ class TestValuationSpecialIndustryResultSubject:
 
     @pytest.mark.parametrize("code", ["000001", "601318", "601211"])
     def test01_check_special_industry_result_subject_valuation_pe(self, code):
-        """验证特殊行业结果科目1年增速PE-2020估值"""
+        """验证特殊行业结果科目1年增速PE-2019估值"""
         self.page_valuation_special_industry_subject.page_special_industry_result_subject_pe_func01(code)
         try:
             assert self.page_valuation_special_industry_subject.page_get_valuation_result() > "0.00"
@@ -38,7 +38,7 @@ class TestValuationSpecialIndustryResultSubject:
 
     @pytest.mark.parametrize("code", ["000001", "601318", "601211"])
     def test02_check_special_industry_result_subject_valuation_pe(self, code):
-        """验证特殊行业结果科目1年增速PE-2021估值"""
+        """验证特殊行业结果科目1年增速PE-2020估值"""
         self.page_valuation_special_industry_subject.page_special_industry_result_subject_pe_func02(code)
         try:
             assert self.page_valuation_special_industry_subject.page_get_valuation_result() > "0.00"
@@ -49,7 +49,7 @@ class TestValuationSpecialIndustryResultSubject:
 
     @pytest.mark.parametrize("code", ["000001", "601318", "601211"])
     def test03_check_special_industry_result_subject_valuation_pe(self, code):
-        """验证特殊行业结果科目1年增速PE-2022估值"""
+        """验证特殊行业结果科目1年增速PE-2021估值"""
         self.page_valuation_special_industry_subject.page_special_industry_result_subject_pe_func03(code)
         try:
             assert self.page_valuation_special_industry_subject.page_get_valuation_result() > "0.00"
@@ -60,7 +60,7 @@ class TestValuationSpecialIndustryResultSubject:
 
     @pytest.mark.parametrize("code", ["000001", "601318", "601211"])
     def test04_check_special_industry_result_subject_valuation_pb(self, code):
-        """验证特殊行业结果科目2年增速PE-2020估值"""
+        """验证特殊行业结果科目2年增速PE-2019估值"""
         self.page_valuation_special_industry_subject.page_special_industry_result_subject_pb_func01(code)
         try:
             assert self.page_valuation_special_industry_subject.page_get_valuation_result() > "0.00"
@@ -71,7 +71,7 @@ class TestValuationSpecialIndustryResultSubject:
 
     @pytest.mark.parametrize("code", ["000001", "601318", "601211"])
     def test05_check_special_industry_result_subject_valuation_pb(self, code):
-        """验证特殊行业结果科目2年增速PE-2021估值"""
+        """验证特殊行业结果科目2年增速PE-2020估值"""
         self.page_valuation_special_industry_subject.page_special_industry_result_subject_pb_func02(code)
         try:
             assert self.page_valuation_special_industry_subject.page_get_valuation_result() > "0.00"
@@ -82,7 +82,7 @@ class TestValuationSpecialIndustryResultSubject:
 
     @pytest.mark.parametrize("code", ["000001", "601318", "601211"])
     def test06_check_special_industry_result_subject_valuation_pb(self, code):
-        """验证特殊行业结果科目2年增速PE-2022估值"""
+        """验证特殊行业结果科目2年增速PE-2021估值"""
         self.page_valuation_special_industry_subject.page_special_industry_result_subject_pb_func03(code)
         try:
             assert self.page_valuation_special_industry_subject.page_get_valuation_result() > "0.00"
@@ -93,7 +93,7 @@ class TestValuationSpecialIndustryResultSubject:
 
     @pytest.mark.parametrize("code", ["000001", "601318", "601211"])
     def test07_check_special_industry_result_subject_valuation_ps(self, code):
-        """验证特殊行业结果科目3年增速PS-2020估值"""
+        """验证特殊行业结果科目3年增速PS-2019估值"""
         self.page_valuation_special_industry_subject.page_special_industry_result_subject_ps_func01(code)
         try:
             assert self.page_valuation_special_industry_subject.page_get_valuation_result() > "0.00"
@@ -104,7 +104,7 @@ class TestValuationSpecialIndustryResultSubject:
 
     @pytest.mark.parametrize("code", ["000001", "601318", "601211"])
     def test08_check_special_industry_result_subject_valuation_ps(self, code):
-        """验证特殊行业结果科目3年增速PS-2021估值"""
+        """验证特殊行业结果科目3年增速PS-2020估值"""
         self.page_valuation_special_industry_subject.page_special_industry_result_subject_ps_func02(code)
         try:
             assert self.page_valuation_special_industry_subject.page_get_valuation_result() > "0.00"
@@ -115,7 +115,7 @@ class TestValuationSpecialIndustryResultSubject:
 
     @pytest.mark.parametrize("code", ["000001", "601318", "601211"])
     def test09_check_special_industry_result_subject_valuation_ps(self, code):
-        """验证特殊行业结果科目3年增速PS-2022估值"""
+        """验证特殊行业结果科目3年增速PS-2021估值"""
         self.page_valuation_special_industry_subject.page_special_industry_result_subject_ps_func03(code)
         try:
             assert self.page_valuation_special_industry_subject.page_get_valuation_result() > "0.00"

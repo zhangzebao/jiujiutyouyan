@@ -43,15 +43,15 @@ class PageValuationResultSubject(Base):
 
     def page_click_select_date(self):
         """选择日期"""
+        self.base_click(page.year2019)
+
+    def page_click_date2020(self):
+        """2020"""
         self.base_click(page.year2020)
 
     def page_click_date2021(self):
         """2021"""
         self.base_click(page.year2021)
-
-    def page_click_date2022(self):
-        """2022"""
-        self.base_click(page.year2022)
 
     def page_click_result_subject(self):
         """结果科目"""
@@ -75,7 +75,7 @@ class PageValuationResultSubject(Base):
         return float(result)
 
     def page_result_subject_pe_func01(self, code):
-        """结果科目1年增速PE-2020估值组合业务方法"""
+        """结果科目1年增速PE-2019估值组合业务方法"""
         self.page_input_stock_code(code)
         sleep(1)
         self.page_click_search_btn()
@@ -86,7 +86,7 @@ class PageValuationResultSubject(Base):
         self.page_click_one_year_growth_rate()
 
     def page_result_subject_pe_func02(self, code):
-        """结果科目2年增速PE-2020估值组合业务方法"""
+        """结果科目2年增速PE-2019估值组合业务方法"""
         self.page_input_stock_code(code)
         sleep(1)
         self.page_click_search_btn()
@@ -97,7 +97,7 @@ class PageValuationResultSubject(Base):
         self.page_click_two_year_growth_rate()
 
     def page_result_subject_pe_func03(self, code):
-        """结果科目3年增速PE-2020估值组合业务方法"""
+        """结果科目3年增速PE-2019估值组合业务方法"""
         self.page_input_stock_code(code)
         sleep(1)
         self.page_click_search_btn()
@@ -109,6 +109,51 @@ class PageValuationResultSubject(Base):
         self.page_click_three_year_growth_rate()
 
     def page_result_subject_pe_func04(self, code):
+        """结果科目1年增速PE-2020估值组合业务方法"""
+        self.page_input_stock_code(code)
+        sleep(1)
+        self.page_click_search_btn()
+        sleep(1)
+        self.page_click_result_subject()
+        self.page_click_select_growth_rate()
+        sleep(1)
+        self.page_click_one_year_growth_rate()
+        sleep(1)
+        self.page_click_select_date()
+        sleep(1)
+        self.page_click_date2020()
+
+    def page_result_subject_pe_func05(self, code):
+        """结果科目2年增速PE-2020估值组合业务方法"""
+        self.page_input_stock_code(code)
+        sleep(1)
+        self.page_click_search_btn()
+        sleep(1)
+        self.page_click_result_subject()
+        self.page_click_select_growth_rate()
+        sleep(1)
+        self.page_click_two_year_growth_rate()
+        sleep(1)
+        self.page_click_select_date()
+        sleep(1)
+        self.page_click_date2020()
+
+    def page_result_subject_pe_func06(self, code):
+        """结果科目3年增速PE-2020估值组合业务方法"""
+        self.page_input_stock_code(code)
+        sleep(1)
+        self.page_click_search_btn()
+        sleep(1)
+        self.page_click_result_subject()
+        self.page_click_select_growth_rate()
+        sleep(1)
+        self.page_click_three_year_growth_rate()
+        sleep(1)
+        self.page_click_select_date()
+        sleep(1)
+        self.page_click_date2020()
+
+    def page_result_subject_pe_func07(self, code):
         """结果科目1年增速PE-2021估值组合业务方法"""
         self.page_input_stock_code(code)
         sleep(1)
@@ -123,7 +168,7 @@ class PageValuationResultSubject(Base):
         sleep(1)
         self.page_click_date2021()
 
-    def page_result_subject_pe_func05(self, code):
+    def page_result_subject_pe_func08(self, code):
         """结果科目2年增速PE-2021估值组合业务方法"""
         self.page_input_stock_code(code)
         sleep(1)
@@ -138,7 +183,7 @@ class PageValuationResultSubject(Base):
         sleep(1)
         self.page_click_date2021()
 
-    def page_result_subject_pe_func06(self, code):
+    def page_result_subject_pe_func09(self, code):
         """结果科目3年增速PE-2021估值组合业务方法"""
         self.page_input_stock_code(code)
         sleep(1)
@@ -153,53 +198,8 @@ class PageValuationResultSubject(Base):
         sleep(1)
         self.page_click_date2021()
 
-    def page_result_subject_pe_func07(self, code):
-        """结果科目1年增速PE-2022估值组合业务方法"""
-        self.page_input_stock_code(code)
-        sleep(1)
-        self.page_click_search_btn()
-        sleep(1)
-        self.page_click_result_subject()
-        self.page_click_select_growth_rate()
-        sleep(1)
-        self.page_click_one_year_growth_rate()
-        sleep(1)
-        self.page_click_select_date()
-        sleep(1)
-        self.page_click_date2022()
-
-    def page_result_subject_pe_func08(self, code):
-        """结果科目2年增速PE-2022估值组合业务方法"""
-        self.page_input_stock_code(code)
-        sleep(1)
-        self.page_click_search_btn()
-        sleep(1)
-        self.page_click_result_subject()
-        self.page_click_select_growth_rate()
-        sleep(1)
-        self.page_click_two_year_growth_rate()
-        sleep(1)
-        self.page_click_select_date()
-        sleep(1)
-        self.page_click_date2022()
-
-    def page_result_subject_pe_func09(self, code):
-        """结果科目3年增速PE-2022估值组合业务方法"""
-        self.page_input_stock_code(code)
-        sleep(1)
-        self.page_click_search_btn()
-        sleep(1)
-        self.page_click_result_subject()
-        self.page_click_select_growth_rate()
-        sleep(1)
-        self.page_click_three_year_growth_rate()
-        sleep(1)
-        self.page_click_select_date()
-        sleep(1)
-        self.page_click_date2022()
-
     def page_result_subject_pb_func01(self, code):
-        """结果科目2年增速PB-2020估值组合业务方法"""
+        """结果科目2年增速PB-2019估值组合业务方法"""
         self.page_input_stock_code(code)
         sleep(1)
         self.page_click_search_btn()
@@ -213,7 +213,94 @@ class PageValuationResultSubject(Base):
         sleep(1)
         self.page_click_two_year_growth_rate()
 
+    def page_result_subject_pb_func04(self, code):
+        """结果科目1年增速PB-2019估值组合业务方法"""
+        self.page_input_stock_code(code)
+        sleep(1)
+        self.page_click_search_btn()
+        sleep(1)
+        self.page_click_result_subject()
+        self.page_click_every_profit()  # 选择
+        sleep(1)
+        self.page_click_every_property()
+        sleep(1)
+        self.page_click_select_growth_rate()
+        sleep(1)
+        self.page_click_one_year_growth_rate()
+
+    def page_result_subject_pb_func05(self, code):
+        """结果科目3年增速PB-2019估值组合业务方法"""
+        self.page_input_stock_code(code)
+        sleep(1)
+        self.page_click_search_btn()
+        sleep(1)
+        self.page_click_result_subject()
+        self.page_click_every_profit()  # 选择
+        sleep(1)
+        self.page_click_every_property()
+        sleep(1)
+        self.page_click_select_growth_rate()
+        sleep(1)
+        self.page_click_three_year_growth_rate()
+
     def page_result_subject_pb_func02(self, code):
+        """结果科目2年增速PB-2020估值组合业务方法"""
+        self.page_input_stock_code(code)
+        sleep(1)
+        self.page_click_search_btn()
+        sleep(1)
+        self.page_click_result_subject()
+        self.page_click_every_profit()  # 选择
+        sleep(1)
+        self.page_click_every_property()
+        sleep(1)
+        self.page_click_select_growth_rate()
+        sleep(1)
+        self.page_click_two_year_growth_rate()
+        sleep(1)
+        self.page_click_select_date()
+        sleep(1)
+        self.page_click_date2020()
+
+    def page_result_subject_pb_func06(self, code):
+        """结果科目1年增速PB-2020估值组合业务方法"""
+        self.page_input_stock_code(code)
+        sleep(1)
+        self.page_click_search_btn()
+        sleep(1)
+        self.page_click_result_subject()
+        self.page_click_every_profit()  # 选择
+        sleep(1)
+        self.page_click_every_property()
+        sleep(1)
+        self.page_click_select_growth_rate()
+        sleep(1)
+        self.page_click_one_year_growth_rate()
+        sleep(1)
+        self.page_click_select_date()
+        sleep(1)
+        self.page_click_date2020()
+
+    def page_result_subject_pb_func07(self, code):
+        """结果科目3年增速PB-2020估值组合业务方法"""
+        self.page_input_stock_code(code)
+        sleep(1)
+        self.page_click_search_btn()
+        sleep(1)
+        self.page_click_result_subject()
+        self.page_click_every_profit()  # 选择
+        sleep(1)
+        self.page_click_every_property()
+        sleep(1)
+        self.page_click_select_growth_rate()
+        sleep(1)
+        self.page_click_three_year_growth_rate()
+        sleep(1)
+        self.page_click_select_date()
+        sleep(1)
+        self.page_click_date2020()
+
+    def page_result_subject_pb_func03(self, code):
         """结果科目2年增速PB-2021估值组合业务方法"""
         self.page_input_stock_code(code)
         sleep(1)
@@ -232,8 +319,8 @@ class PageValuationResultSubject(Base):
         sleep(1)
         self.page_click_date2021()
 
-    def page_result_subject_pb_func03(self, code):
-        """结果科目2年增速PB-2022估值组合业务方法"""
+    def page_result_subject_pb_func08(self, code):
+        """结果科目1年增速PB-2021估值组合业务方法"""
         self.page_input_stock_code(code)
         sleep(1)
         self.page_click_search_btn()
@@ -245,14 +332,33 @@ class PageValuationResultSubject(Base):
         sleep(1)
         self.page_click_select_growth_rate()
         sleep(1)
-        self.page_click_two_year_growth_rate()
+        self.page_click_one_year_growth_rate()
         sleep(1)
         self.page_click_select_date()
         sleep(1)
-        self.page_click_date2022()
+        self.page_click_date2021()
+
+    def page_result_subject_pb_func09(self, code):
+        """结果科目3年增速PB-2021估值组合业务方法"""
+        self.page_input_stock_code(code)
+        sleep(1)
+        self.page_click_search_btn()
+        sleep(1)
+        self.page_click_result_subject()
+        self.page_click_every_profit()  # 选择
+        sleep(1)
+        self.page_click_every_property()
+        sleep(1)
+        self.page_click_select_growth_rate()
+        sleep(1)
+        self.page_click_three_year_growth_rate()
+        sleep(1)
+        self.page_click_select_date()
+        sleep(1)
+        self.page_click_date2021()
 
     def page_result_subject_ps_func01(self, code):
-        """结果科目3年增速PS-2020估值组合业务方法"""
+        """结果科目3年增速PS-2019估值组合业务方法"""
         self.page_input_stock_code(code)
         sleep(1)
         self.page_click_search_btn()
@@ -266,7 +372,94 @@ class PageValuationResultSubject(Base):
         sleep(1)
         self.page_click_three_year_growth_rate()
 
+    def page_result_subject_ps_func04(self, code):
+        """"结果科目1年增速PS-2019估值组合业务方法"""
+        self.page_input_stock_code(code)
+        sleep(1)
+        self.page_click_search_btn()
+        sleep(1)
+        self.page_click_result_subject()
+        self.page_click_every_profit()  # 选择
+        sleep(1)
+        self.page_click_every_market()
+        sleep(1)
+        self.page_click_select_growth_rate()
+        sleep(1)
+        self.page_click_one_year_growth_rate()
+
+    def page_result_subject_ps_func05(self, code):
+        """结果科目2年增速PS-2019估值组合业务方法"""
+        self.page_input_stock_code(code)
+        sleep(1)
+        self.page_click_search_btn()
+        sleep(1)
+        self.page_click_result_subject()
+        self.page_click_every_profit()  # 选择
+        sleep(1)
+        self.page_click_every_market()
+        sleep(1)
+        self.page_click_select_growth_rate()
+        sleep(1)
+        self.page_click_two_year_growth_rate()
+
     def page_result_subject_ps_func02(self, code):
+        """结果科目3年增速PS-2020估值组合业务方法"""
+        self.page_input_stock_code(code)
+        sleep(1)
+        self.page_click_search_btn()
+        sleep(1)
+        self.page_click_result_subject()
+        self.page_click_every_profit()  # 选择
+        sleep(1)
+        self.page_click_every_market()
+        sleep(1)
+        self.page_click_select_growth_rate()
+        sleep(1)
+        self.page_click_three_year_growth_rate()
+        sleep(1)
+        self.page_click_select_date()
+        sleep(1)
+        self.page_click_date2020()
+
+    def page_result_subject_ps_func06(self, code):
+        """结果科目1年增速PS-2020估值组合业务方法"""
+        self.page_input_stock_code(code)
+        sleep(1)
+        self.page_click_search_btn()
+        sleep(1)
+        self.page_click_result_subject()
+        self.page_click_every_profit()  # 选择
+        sleep(1)
+        self.page_click_every_market()
+        sleep(1)
+        self.page_click_select_growth_rate()
+        sleep(1)
+        self.page_click_one_year_growth_rate()
+        sleep(1)
+        self.page_click_select_date()
+        sleep(1)
+        self.page_click_date2020()
+
+    def page_result_subject_ps_func07(self, code):
+        """结果科目2年增速PS-2020估值组合业务方法"""
+        self.page_input_stock_code(code)
+        sleep(1)
+        self.page_click_search_btn()
+        sleep(1)
+        self.page_click_result_subject()
+        self.page_click_every_profit()  # 选择
+        sleep(1)
+        self.page_click_every_market()
+        sleep(1)
+        self.page_click_select_growth_rate()
+        sleep(1)
+        self.page_click_two_year_growth_rate()
+        sleep(1)
+        self.page_click_select_date()
+        sleep(1)
+        self.page_click_date2020()
+
+    def page_result_subject_ps_func03(self, code):
         """结果科目3年增速PS-2021估值组合业务方法"""
         self.page_input_stock_code(code)
         sleep(1)
@@ -285,8 +478,8 @@ class PageValuationResultSubject(Base):
         sleep(1)
         self.page_click_date2021()
 
-    def page_result_subject_ps_func03(self, code):
-        """结果科目3年增速PS-2022估值组合业务方法"""
+    def page_result_subject_ps_func08(self, code):
+        """结果科目1年增速PS-2021估值组合业务方法"""
         self.page_input_stock_code(code)
         sleep(1)
         self.page_click_search_btn()
@@ -298,9 +491,27 @@ class PageValuationResultSubject(Base):
         sleep(1)
         self.page_click_select_growth_rate()
         sleep(1)
-        self.page_click_three_year_growth_rate()
+        self.page_click_one_year_growth_rate()
         sleep(1)
         self.page_click_select_date()
         sleep(1)
-        self.page_click_date2022()
+        self.page_click_date2021()
 
+    def page_result_subject_ps_func09(self, code):
+        """结果科目2年增速PS-2021估值组合业务方法"""
+        self.page_input_stock_code(code)
+        sleep(1)
+        self.page_click_search_btn()
+        sleep(1)
+        self.page_click_result_subject()
+        self.page_click_every_profit()  # 选择
+        sleep(1)
+        self.page_click_every_market()
+        sleep(1)
+        self.page_click_select_growth_rate()
+        sleep(1)
+        self.page_click_two_year_growth_rate()
+        sleep(1)
+        self.page_click_select_date()
+        sleep(1)
+        self.page_click_date2021()

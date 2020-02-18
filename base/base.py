@@ -21,7 +21,7 @@ class Base:
     @allure.step(title="查找元素操作")
     def base_find(self, loc, timeout=10, poll=0.5):
         # attach描述原因，不能直接为 元组
-        allure.attach("查找的元素：", "{}".format(loc))
+        # allure.attach("查找的元素：", "{}".format(loc))
         log.info("正在查找元素：{} 超时时间：{} 访问频率：{}".format(loc, timeout, poll))
         return WebDriverWait(self.driver, timeout=timeout, poll_frequency=poll).until(lambda x: x.find_element(*loc))
 
@@ -33,9 +33,9 @@ class Base:
         return WebDriverWait(self.driver, timeout=timeout, poll_frequency=poll).until(lambda x: x.find_elements(*loc))
 
     # 点击
-    @allure.step(title="查找元素操作")
+    @allure.step(title="点击元素操作")
     def base_click(self, loc):
-        allure.attach("点击元素：", "{}".format(loc))
+        # allure.attach("点击元素：", "{}".format(loc))
         self.base_find(loc).click()
         log.info("正在点击元素：{}".format(loc))
 
